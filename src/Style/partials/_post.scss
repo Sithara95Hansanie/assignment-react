@@ -1,0 +1,55 @@
+.featured-post-wrapper {
+  display: flex;
+  margin: 100px auto 24px;
+  width: 90%;
+  .feature-card {
+    width: 75%;
+    background-color: $white;
+    box-shadow: 0 0 12px 0 rgba(129, 121, 121, 0.2);
+    padding: 24px;
+    .feature-header {
+      padding: 12px 0px;
+
+      h3 {
+        font-size: 32px;
+        font-weight: 600;
+      }
+    }
+    .feature-body {
+      padding: 24px 0px 60px 0px;
+
+      p {
+        color: $Black;
+        font-size: 16px;
+      }
+    }
+    .comment-section {
+      .comment-block {
+        border: solid 1px #d6d6d6;
+        border-radius: 6px;
+        padding: 12px;
+        margin: 6px 0px;
+        h5 {
+          font-size: 14px;
+          font-weight: 400;
+          color: #555653;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .side-bar-container {
+    width: 25%;
+    background-color: $white;
+    margin: 0px 16px;
+    padding: 12px;
+    h4 {
+      font-size: 16px;
+      color: $Gray;
+      text-align: center;
+      font-weight: 400;
+    }
+  }
+}
