@@ -1,0 +1,56 @@
+//-----custom color --------------//
+$gray-color: #8a8a8a;
+$dark-gey: #484848;
+
+//-------main colors ----------//
+
+$white: #ffffff;
+$Silver: #c0c0c0;
+$Gray: #808080;
+$Black: #000000;
+$Red: #ff0000;
+$Maroon: #800000;
+$Yellow: #ffff00;
+$Olive: #808000;
+$Lime: #00ff00;
+$Green: #008000;
+$Aqua: #00ffff;
+$Teal: #008080;
+$Blue: #0000ff;
+$Navy: #000080;
+$Fuchsia: #ff00ff;
+$Purple: #800080;
+
+//-----breakpoints -------------//
+$breakpoints: (
+  "exsmall_320": (
+    max-width: 325px,
+  ),
+  "exsmall": (
+    max-width: 375px,
+  ),
+  "exsmall_574": (
+    max-width: 574px,
+  ),
+  "small": (
+    max-width: 767px,
+  ),
+  "medium": (
+    max-width: 991px,
+  ),
+  "medium_lg": (
+    max-width: 1024px,
+  ),
+  "large": (
+    max-width: 1199px,
+  ),
+  "large_max": (
+    max-width: 1366px,
+  ),
+  "ex_large_max": (
+    max-width: 1440px,
+  ),
+  "ex_large": (
+    max-width: 1920px,
+  ),
+) !default;

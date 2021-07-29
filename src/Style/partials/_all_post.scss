@@ -1,0 +1,29 @@
+.blog-page-wrapper {
+  background-color: #eeeeee;
+  padding: 100px 0px 24px 0px;
+  .post-grid {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    justify-content: center;
+    a {
+      text-decoration: none;
+      width: 28%;
+      padding: 14px;
+      background-color: $white;
+      box-shadow: 0 0 12px 0 rgba(129, 121, 121, 0.2);
+      margin: 4px;
+      .post-card-conatiner {
+        h3 {
+          font-size: 24px;
+          color: $Black;
+          padding: 12px 0px;
+        }
+        p {
+          color: $gray-color;
+        }
+      }
+    }
+  }
+}
